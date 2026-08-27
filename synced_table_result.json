@@ -1,0 +1,102 @@
+[
+  {
+    "subscriber_id": "SUB-0003372",
+    "plan_type": "bundle",
+    "tenure_months": 38,
+    "risk_band": "critical",
+    "churn_risk_score": 0.922,
+    "churn_reason": "service",
+    "clv_at_risk_usd": 2764.67,
+    "open_ticket_count": 1
+  },
+  {
+    "subscriber_id": "SUB-0004926",
+    "plan_type": "broadband",
+    "tenure_months": 27,
+    "risk_band": "critical",
+    "churn_risk_score": 0.949,
+    "churn_reason": "service",
+    "clv_at_risk_usd": 2743.37,
+    "open_ticket_count": 1
+  },
+  {
+    "subscriber_id": "SUB-0003261",
+    "plan_type": "mobile",
+    "tenure_months": 8,
+    "risk_band": "critical",
+    "churn_risk_score": 0.918,
+    "churn_reason": "service",
+    "clv_at_risk_usd": 2675.79,
+    "open_ticket_count": 1
+  },
+  {
+    "subscriber_id": "SUB-0005185",
+    "plan_type": "bundle",
+    "tenure_months": 47,
+    "risk_band": "critical",
+    "churn_risk_score": 0.915,
+    "churn_reason": "service",
+    "clv_at_risk_usd": 2658.92,
+    "open_ticket_count": 1
+  },
+  {
+    "subscriber_id": "SUB-0002114",
+    "plan_type": "mobile",
+    "tenure_months": 85,
+    "risk_band": "critical",
+    "churn_risk_score": 0.95,
+    "churn_reason": "service",
+    "clv_at_risk_usd": 2646.4,
+    "open_ticket_count": 1
+  },
+  {
+    "subscriber_id": "SUB-0002262",
+    "plan_type": "mobile",
+    "tenure_months": 6,
+    "risk_band": "critical",
+    "churn_risk_score": 0.93,
+    "churn_reason": "service",
+    "clv_at_risk_usd": 2644.92,
+    "open_ticket_count": 1
+  },
+  {
+    "subscriber_id": "SUB-0000708",
+    "plan_type": "bundle",
+    "tenure_months": 13,
+    "risk_band": "critical",
+    "churn_risk_score": 0.946,
+    "churn_reason": "service",
+    "clv_at_risk_usd": 2613.68,
+    "open_ticket_count": 1
+  },
+  {
+    "subscriber_id": "SUB-0002595",
+    "plan_type": "bundle",
+    "tenure_months": 82,
+    "risk_band": "critical",
+    "churn_risk_score": 0.947,
+    "churn_reason": "service",
+    "clv_at_risk_usd": 2604.63,
+    "open_ticket_count": 1
+  },
+  {
+    "subscriber_id": "SUB-0000523",
+    "plan_type": "mobile",
+    "tenure_months": 20,
+    "risk_band": "critical",
+    "churn_risk_score": 0.911,
+    "churn_reason": "service",
+    "clv_at_risk_usd": 2598.54,
+    "open_ticket_count": 1
+  },
+  {
+    "subscriber_id": "SUB-0002373",
+    "plan_type": "bundle",
+    "tenure_months": 53,
+    "risk_band": "critical",
+    "churn_risk_score": 0.866,
+    "churn_reason": "service",
+    "clv_at_risk_usd": 2591.76,
+    "open_ticket_count": 1
+  }
+]
