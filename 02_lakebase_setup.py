@@ -215,6 +215,40 @@ print("\n✓ Lakebase synced table verified — serving live at-risk subscriber 
 
 # COMMAND ----------
 
+# DBTITLE 1,Step 7: Postgres Version & Instance Info
+from databricks.sdk import WorkspaceClient
+import psycopg2
+
+w = WorkspaceClient()
+
+# Project/instance info
+project = w.postgres.get_project(name="projects/streamline-telco")
+print(f"Project:  {project.name}")
+print(f"Instance: {project.status.display_name} (PG {project.status.pg_version})")
+print(f"Owner:    {project.status.owner}")
+print()
+
+# Connect and run SELECT version()
+cred = w.postgres.generate_database_credential(
+    endpoint="projects/streamline-telco/branches/production/endpoints/primary"
+)
+conn = psycopg2.connect(
+    host="ep-winter-mountain-d2nith27.database.us-east-1.cloud.databricks.com",
+    port=5432,
+    dbname="databricks-postgres",
+    user="roshni.agarwal@databricks.com",
+    password=cred.token,
+    sslmode="require"
+)
+cur = conn.cursor()
+cur.execute("SELECT version();")
+version = cur.fetchone()[0]
+print(f"Postgres version(): {version}")
+cur.close()
+conn.close()
+
+# COMMAND ----------
+
 # DBTITLE 1,Summary
 # MAGIC %md
 # MAGIC ## Results
